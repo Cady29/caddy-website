@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cady's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+            color: #333;
+        }
+        nav {
+            background-color: #00203FFF;
+            color: #ADEFD1FF;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .links a {
+            color: #ADEFD1FF;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        section#home {
+            background: linear-gradient(to right, #00203FFF, #ADEFD1FF);
+            color: #fff;
+        }
+        section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        footer {
+            background-color: #00203FFF;
+            color: #ADEFD1FF;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Cady</div>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to Cady's Portfolio</h1>
+        <p>I am Cady, a passionate Software Developer with expertise in building robust and scalable applications.</p>
+    </section>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hello! I'm Cady, a Software Developer with a strong background in web and application development. My goal is to craft innovative and efficient solutions to complex problems.</p>
+    </section>
+
+    <section id="skills">
+        <h1>My Skills</h1>
+        <ul>
+            <li>Programming Languages: Java, Python, JavaScript</li>
+            <li>Frameworks: React, Node.js, Spring Boot</li>
+            <li>Databases: MySQL, MongoDB</li>
+            <li>Version Control: Git, GitHub</li>
+            <li>Cloud: AWS, Azure</li>
+        </ul>
+    </section>
+
+    <section id="services">
+        <h1>Services</h1>
+        <p>I offer a range of services including:</p>
+        <ul>
+            <li>Custom Web Development</li>
+            <li>Application Development</li>
+            <li>Technical Consulting</li>
+            <li>Code Optimization and Debugging</li>
+        </ul>
+    </section>
+
+    <section id="blogs">
+        <h1>Blogs</h1>
+        <p>Stay tuned for insightful articles on software development, programming tips, and tech trends!</p>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>I'd love to hear from you! Reach out to me via email at cady.dev@example.com or connect with me on LinkedIn.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cady's Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
